@@ -1,0 +1,230 @@
+body {
+  background-color: black;
+  
+}
+
+.logo {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+
+.first-nav  {
+    margin-left:700px;
+}
+
+ a   {
+    font-family: 'Amatic SC', cursive;
+    margin: 30px 0 0 30px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+.main-nav  {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    color: white;
+}
+
+article,.main-pic  {
+    width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+
+figure img  {
+    width: 500px;
+    height: 500px;
+}
+figure {
+    color: white;
+}
+
+figcaption  {
+    width: 500px;
+  
+}
+
+.selfie, figcaption  {
+    display: block;
+    margin: 10px auto;
+}
+
+h1  {
+    text-align: center;
+    color: white;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: 30px auto;
+}
+
+.slideshow-container img  {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+#slide1 {display:block}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 29px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  
+  width: 100%;
+  text-align: center;
+}
+
+
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+p {
+    width: 50%;
+    color: white;
+    font-size: 1.3em;
+    margin: 40px 40px 1px 10px;
+    padding: 1px 10px 0 10px;
+    float: right;
+}
+
+.portrait  {
+    float: left;
+    margin: 2em 0 0 3em;
+}
+
+.portrait1  {
+    float: left;
+    width: 500px;
+    margin: 1em 0 0 5em;
+}
+
+p .about  {
+    margin: -.3em 0 -15em 0;
+    padding: 0 0 15em 0;
+   
+}
+
+main p  {
+    padding: 0 0 10em 0;
+    background-image: url(../images/bWoilRig.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.bigshot img:hover  {
+    width: 600px;
+    min-height: 600px;
+    transition: width 2s;
+}
+
+
+section p {
+    float: none;
+    text-align: center;
+    margin: auto;
+    margin-top: 5em;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+    
+}
+
+
+.music {
+    min-height: 500px;
+}
+
+h2, h3  {
+    text-align: center;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+}
+
+/* This is the div on the music page */
+aside  {
+    clear: both;
+    width: 50%;
+    color: white;
+    margin: 10em 0 10em 6em;
+    
+    
+}
+
+h5#scroll  {
+    clear: both;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 5em;
+}
