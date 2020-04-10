@@ -228,3 +228,40 @@ h5#scroll  {
     font-size: 1.5em;
     padding-top: 5em;
 }
+
+ul  {
+    color: white;
+    font-size: 2em;
+    float: right;
+    margin: 5em 10em 0 2em;
+}
+
+.edpic  {
+    margin: 2em;
+}
+
+@media (max-width: 1450px) {
+    header  {
+        display: flex;
+        justify-content: space-between;
+    }
+    .first-nav  {
+        margin: auto 0 0 2em;
+        padding: .5em;
+    }
+    .main-nav, a {
+        padding: .5em;
+        margin: auto 0 0 0;
+    }
+    .portrait1, .about {
+        float: none;
+        margin: auto;
+        display: block;
+    }
+    .about  {
+        width: 500px;
+        font-size: 1em;
+        text-align: center;
+        
+    }
+}
