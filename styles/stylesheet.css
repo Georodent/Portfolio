@@ -253,15 +253,44 @@ ul  {
         padding: .5em;
         margin: auto 0 0 0;
     }
-    .portrait1, .about {
-        float: none;
-        margin: auto;
+    
+    
+    .portrait1 {
         display: block;
+        height: 400px;
+        width: 300px;
+        margin: 2em 0 0 10em;
     }
-    .about  {
+    .about, p {
+        height: 200px;
         width: 500px;
         font-size: 1em;
-        text-align: center;
-        
+        background-image: none;
+    }
+    .about  {
+        margin: 2em 10em;
+    }
+    article .main-pic {
+        height: 400px;
+        width: 400px;        
+    }
+    .portrait  {
+        margin: 3em 0 0 6em;
+    }
+    main p, .music  {
+        min-height: 300px;
+     }
+    aside {
+        width: auto;
+        margin: auto 0 0 2em;
+    }
+    main .edpic  {
+        width: 300px;
+        margin: 2em 5em;
+    }
+    ul  {
+        font-size: 1em;
+        margin: 10em 25em 0 0 ;
     }
 }
+
