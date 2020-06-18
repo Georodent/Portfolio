@@ -294,3 +294,23 @@ ul  {
     }
 }
 
+@media (max-width: 400px) {
+    .logo  {
+        width: 50px;
+        margin: auto;
+    }
+    article,.main-pic  {
+        width: auto;
+        margin: auto;  
+    }
+    img,.portrait1  {
+        float: none;
+        margin: auto;
+    }
+    .about {
+        margin: auto;
+        width: auto;
+        text-align: center;
+    }
+     
+    }
