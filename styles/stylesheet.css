@@ -295,8 +295,22 @@ ul  {
 }
 
 @media (max-width: 400px) {
+    .main-nav  {
+        display: block;
+        
+    }
+    
     .logo  {
-        width: 50px;
+        width: 100%;
+        margin: auto;
+    }
+    
+    .main-nav a  {
+        display: block;
+        text-align: center;
+    }
+    
+    .first-nav  {
         margin: auto;
     }
     article,.main-pic  {
@@ -312,5 +326,21 @@ ul  {
         width: auto;
         text-align: center;
     }
-     
+    
+    li  {
+        text-align: left;
+    }
+    
+    .slideshow-container img  {
+        width: 100%;
+    }
+     .bigshot img:hover  {
+    width:100%;
+    min-height: auto;
+    transition: width 2s;
+    }
+    
+    section p  {
+        width: auto;
+        
     }
