@@ -362,7 +362,7 @@ ul  {
     }
     
     main .portrait  {
-        margin: 0;
+        margin: 2em 0 0 0;
         width: 100%;
     }
     
@@ -370,5 +370,6 @@ ul  {
         width: 100%;
         margin: 0 0 10em;
         text-align: center;
+        padding: 0 0 23em;
     }
     }
