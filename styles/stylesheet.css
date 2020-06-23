@@ -303,6 +303,7 @@ ul  {
     .logo  {
         width: 100%;
         margin: auto;
+        margin: 0 0 10em 0;
     }
     
     .main-nav a  {
@@ -313,9 +314,14 @@ ul  {
     .first-nav  {
         margin: auto;
     }
-    article,.main-pic  {
-        width: auto;
-        margin: auto;  
+    article {
+        display: inline-block;
+        width: auto;  
+    }
+    
+    article .main-pic  {
+        width: 100%;
+        
     }
     img,.portrait1  {
         float: none;
