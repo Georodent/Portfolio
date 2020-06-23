@@ -348,5 +348,27 @@ ul  {
     
     section p  {
         width: auto;
-        
+        margin: 0;
+    }
+    
+    #scroll  {
+        display: none;
+    }
+    
+    main  {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main .portrait  {
+        margin: 0;
+        width: 100%;
+    }
+    
+    main p  {
+        width: 100%;
+        margin: 0 0 10em;
+        text-align: center;
+    }
     }
