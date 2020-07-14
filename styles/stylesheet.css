@@ -240,6 +240,23 @@ ul  {
     margin: 2em;
 }
 
+.webD  {
+    font-size: 1.4em;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.webList  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h4  {
+    color: white;
+    font-size: 
+}
+
 @media (max-width: 1450px) {
     header  {
         display: flex;
